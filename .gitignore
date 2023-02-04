@@ -1,0 +1,13 @@
+# Environment variable
+settings.ini
+/.env/
+
+# User data
+/user_data_selenium/
+
+# Chrome driver folder
+/chrome_driver/
+
+# Pycahce
+__pycache__/
+
