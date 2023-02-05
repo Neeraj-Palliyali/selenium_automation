@@ -5,9 +5,11 @@ settings.ini
 # User data
 /user_data_selenium/
 
+# IDE
+.vscode/
+
 # Chrome driver folder
 /chrome_driver/
 
 # Pycahce
 __pycache__/
-
