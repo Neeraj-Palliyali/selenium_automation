@@ -1,6 +1,7 @@
 import load_env as env
 
 import time
+import logging
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
@@ -68,7 +69,7 @@ def open_pages(driver: WebDriver) -> None:
                 chart.click()
 
         except Exception:
-            print(f"ERROR on id: {plant_id}")
+            logging.debug(f"ERROR on id: {plant_id}")
 
     driver.switch_to.window(driver.window_handles[0])
     print('------------Pages Opened------------')
